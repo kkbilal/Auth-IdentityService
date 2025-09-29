@@ -3,12 +3,58 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6BD40F75-EEF7-4AFE-BEB8-F41505352B5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AB3C1750-D577-42D7-ACB3-4B09AB641734}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth-IdentityService.Domain", "src\Auth-IdentityService.Domain\Auth-IdentityService.Domain.csproj", "{6B53BD25-75AE-46A5-8BAD-E8C178A87899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth-IdentityService.Application", "src\Auth-IdentityService.Application\Auth-IdentityService.Application.csproj", "{55CDF5B3-6B7D-4F3D-968D-94C1E745A782}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth-IdentityService.Infrastructure", "src\Auth-IdentityService.Infrastructure\Auth-IdentityService.Infrastructure.csproj", "{B8C0BEE2-1A2B-4E83-9E0B-335989B29C37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth-IdentityService.API", "src\Auth-IdentityService.API\Auth-IdentityService.API.csproj", "{679DFF2C-63FA-40A7-AEE8-7EF82F0F9218}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth-IdentityService.Tests", "tests\Auth-IdentityService.Tests\Auth-IdentityService.Tests.csproj", "{4AB55754-DBD0-4BBE-B38C-E24307A84A10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B53BD25-75AE-46A5-8BAD-E8C178A87899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B53BD25-75AE-46A5-8BAD-E8C178A87899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B53BD25-75AE-46A5-8BAD-E8C178A87899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B53BD25-75AE-46A5-8BAD-E8C178A87899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55CDF5B3-6B7D-4F3D-968D-94C1E745A782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55CDF5B3-6B7D-4F3D-968D-94C1E745A782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55CDF5B3-6B7D-4F3D-968D-94C1E745A782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55CDF5B3-6B7D-4F3D-968D-94C1E745A782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8C0BEE2-1A2B-4E83-9E0B-335989B29C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8C0BEE2-1A2B-4E83-9E0B-335989B29C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8C0BEE2-1A2B-4E83-9E0B-335989B29C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8C0BEE2-1A2B-4E83-9E0B-335989B29C37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{679DFF2C-63FA-40A7-AEE8-7EF82F0F9218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{679DFF2C-63FA-40A7-AEE8-7EF82F0F9218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{679DFF2C-63FA-40A7-AEE8-7EF82F0F9218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{679DFF2C-63FA-40A7-AEE8-7EF82F0F9218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AB55754-DBD0-4BBE-B38C-E24307A84A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AB55754-DBD0-4BBE-B38C-E24307A84A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AB55754-DBD0-4BBE-B38C-E24307A84A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AB55754-DBD0-4BBE-B38C-E24307A84A10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B53BD25-75AE-46A5-8BAD-E8C178A87899} = {6BD40F75-EEF7-4AFE-BEB8-F41505352B5D}
+		{55CDF5B3-6B7D-4F3D-968D-94C1E745A782} = {6BD40F75-EEF7-4AFE-BEB8-F41505352B5D}
+		{B8C0BEE2-1A2B-4E83-9E0B-335989B29C37} = {6BD40F75-EEF7-4AFE-BEB8-F41505352B5D}
+		{679DFF2C-63FA-40A7-AEE8-7EF82F0F9218} = {6BD40F75-EEF7-4AFE-BEB8-F41505352B5D}
+		{4AB55754-DBD0-4BBE-B38C-E24307A84A10} = {AB3C1750-D577-42D7-ACB3-4B09AB641734}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BFA03AB-5338-4E05-9E4B-0FE304221F64}
 	EndGlobalSection
 EndGlobal

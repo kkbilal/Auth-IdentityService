@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bpkMPqxok5oslfRzv+XHzimwMVVycxPKE+qW4Hu2LZ4=",
+  "Source": "Auth-IdentityService.API",
+  "BasePath": "_content/Auth-IdentityService.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

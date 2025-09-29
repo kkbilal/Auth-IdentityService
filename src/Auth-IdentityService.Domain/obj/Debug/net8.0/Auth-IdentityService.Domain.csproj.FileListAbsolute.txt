@@ -1,0 +1,12 @@
+C:\Users\Bilal\Desktop\asp.netCore\Auth-IdentityService\src\Auth-IdentityService.Domain\bin\Debug\net8.0\Auth-IdentityService.Domain.deps.json
+C:\Users\Bilal\Desktop\asp.netCore\Auth-IdentityService\src\Auth-IdentityService.Domain\bin\Debug\net8.0\Auth-IdentityService.Domain.dll
+C:\Users\Bilal\Desktop\asp.netCore\Auth-IdentityService\src\Auth-IdentityService.Domain\bin\Debug\net8.0\Auth-IdentityService.Domain.pdb
+C:\Users\Bilal\Desktop\asp.netCore\Auth-IdentityService\src\Auth-IdentityService.Domain\obj\Debug\net8.0\Auth-IdentityService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bilal\Desktop\asp.netCore\Auth-IdentityService\src\Auth-IdentityService.Domain\obj\Debug\net8.0\Auth-IdentityService.Domain.AssemblyInfoInputs.cache
+C:\Users\Bilal\Desktop\asp.netCore\Auth-IdentityService\src\Auth-IdentityService.Domain\obj\Debug\net8.0\Auth-IdentityService.Domain.AssemblyInfo.cs
+C:\Users\Bilal\Desktop\asp.netCore\Auth-IdentityService\src\Auth-IdentityService.Domain\obj\Debug\net8.0\Auth-IdentityService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Bilal\Desktop\asp.netCore\Auth-IdentityService\src\Auth-IdentityService.Domain\obj\Debug\net8.0\Auth-IdentityService.Domain.sourcelink.json
+C:\Users\Bilal\Desktop\asp.netCore\Auth-IdentityService\src\Auth-IdentityService.Domain\obj\Debug\net8.0\Auth-IdentityService.Domain.dll
+C:\Users\Bilal\Desktop\asp.netCore\Auth-IdentityService\src\Auth-IdentityService.Domain\obj\Debug\net8.0\refint\Auth-IdentityService.Domain.dll
+C:\Users\Bilal\Desktop\asp.netCore\Auth-IdentityService\src\Auth-IdentityService.Domain\obj\Debug\net8.0\Auth-IdentityService.Domain.pdb
+C:\Users\Bilal\Desktop\asp.netCore\Auth-IdentityService\src\Auth-IdentityService.Domain\obj\Debug\net8.0\ref\Auth-IdentityService.Domain.dll
