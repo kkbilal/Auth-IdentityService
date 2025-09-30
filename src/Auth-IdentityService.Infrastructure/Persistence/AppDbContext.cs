@@ -16,6 +16,7 @@ namespace Auth_IdentityService.Infrastructure.Persistence
 		public DbSet<User> Users { get; set; }
 		public DbSet<Role> Roles { get; set; }
 		public DbSet<UserRole> UserRoles { get; set; }
+		public DbSet<AuditLog> AuditLogs { get; set; }
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
@@ -34,6 +35,15 @@ namespace Auth_IdentityService.Infrastructure.Persistence
 				.HasOne(ur => ur.Role)
 				.WithMany(r => r.UserRoles)
 				.HasForeignKey(ur => ur.RoleId);
+				
+			// Index'ler
+			modelBuilder.Entity<User>()
+				.HasIndex(u => u.Email)
+				.IsUnique();
+				
+			modelBuilder.Entity<User>()
+				.HasIndex(u => u.Username)
+				.IsUnique();
 		}
 	}
 }

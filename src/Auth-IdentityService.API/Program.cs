@@ -16,6 +16,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 // Add custom services
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IPasswordValidator, PasswordValidator>();
+builder.Services.AddScoped<IRateLimitService, RateLimitService>();
 
 // Add JWT Authentication
 builder.Services.AddAuthentication(options =>
@@ -41,6 +43,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Add logging
+builder.Services.AddLogging();
 
 var app = builder.Build();
 
